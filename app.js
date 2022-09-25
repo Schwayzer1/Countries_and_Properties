@@ -33,7 +33,7 @@ const renderCountries = (data) => {
     maps: { googleMaps },
   } = data[0];
   const countryDiv = document.querySelector(".countries");
-  countryDiv.innerHTML += `
+  countryDiv.innerHTML = `
   <div class="card mx-auto m-3 shadow-lg" style="width: 18rem;">
   <img src="${svg}" class="card-img-top" alt="...">
   <div class="card-body">
