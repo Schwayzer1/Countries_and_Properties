@@ -1,0 +1,19 @@
+.container-fluid {
+  height: 100vh;
+  background: url(https://img.freepik.com/free-vector/earth-globe-world-map-dots-global-geography-dotted-pattern_1284-51548.jpg?w=2000);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background: rgba(0, 0, 0, 0.395); */
+}
+h1 {
+  background-color: rgba(0, 0, 0, 0.395);
+}
+label {
+  background-color: rgba(0, 0, 0, 0.395);
+}
+
+select {
+  width: 70% !important;
+}
